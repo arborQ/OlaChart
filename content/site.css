@@ -9,14 +9,62 @@ body {
 .chart-row_red {
   border-color: red;
 }
+.chart-row_red-box {
+  background-image: url('images/little_girl_red.png');
+}
 .chart-row_green {
   border-color: green;
 }
-.chart-row_pink {
-  border-color: pink;
+.chart-row_green-box {
+  background-image: url('images/little_girl_green.png');
 }
 .chart-row_pink {
   border-color: pink;
+}
+.chart-row_pink-box {
+  background-image: url('images/little_girl_pink.png');
+}
+.chart-row_black {
+  border-color: black;
+}
+.chart-row_black-box {
+  background-image: url('images/little_girl_black.png');
+}
+.chart-row_blue {
+  border-color: blue;
+}
+.chart-row_blue-box {
+  background-image: url('images/little_girl_blue.png');
+}
+.chart-row_grey {
+  border-color: gray;
+}
+.chart-row_grey-box {
+  background-image: url('images/little_girl_grey.png');
+}
+.chart-row_orange {
+  border-color: orange;
+}
+.chart-row_orange-box {
+  background-image: url('images/little_girl_orange.png');
+}
+.chart-row_purple {
+  border-color: purple;
+}
+.chart-row_purple-box {
+  background-image: url('images/little_girl_purple.png');
+}
+.chart-row_white {
+  border-color: #ececec;
+}
+.chart-row_white-box {
+  background-image: url('images/little_girl_white.png');
+}
+.chart-row_yellow {
+  border-color: yellow;
+}
+.chart-row_yellow-box {
+  background-image: url('images/little_girl_yellow.png');
 }
 .chart-row-label {
   line-height: 64px;
@@ -27,13 +75,5 @@ body {
   height: 52px;
   margin-top: 6px;
   float: left;
-}
-.chart-row-box_red {
-  background-color: Red;
-}
-.chart-row-box_green {
-  background-color: green;
-}
-.chart-row-box_pink {
-  background-color: pink;
+  background-size: contain;
 }

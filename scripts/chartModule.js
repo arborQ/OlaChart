@@ -1,7 +1,7 @@
 var app = angular.module('module', []);
 
 function entryClass() {
-  this.name = 'dasdasd dsa';
+  this.name = 'Opis';
   this.value = 1;
   this.type = 'red';
 }

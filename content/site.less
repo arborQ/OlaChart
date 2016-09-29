@@ -2,25 +2,59 @@ body{
   font-family: 'Roboto','Helvetica','Arial',sans-serif;
 }
 
+.chartType(@color, @image){
+  &{
+    border-color: @color;
+  }
+
+  &-box{
+    background-image : url(@image);
+  }
+}
+
 .chart-row {
   min-height: 64px;
   width: 100%;
   border-bottom: 1px solid Transparent;
   &_red{
-    border-color: red;
+    .chartType(red, 'images/little_girl_red.png');
   }
 
   &_green{
-    border-color: green;
+    .chartType(green, 'images/little_girl_green.png');
   }
 
   &_pink{
-    border-color: pink;
+    .chartType(pink, 'images/little_girl_pink.png');
   }
-}
 
-.chart-row_pink {
-  border-color: pink;
+  &_black{
+    .chartType(black, 'images/little_girl_black.png');
+  }
+
+  &_blue{
+    .chartType(blue, 'images/little_girl_blue.png');
+  }
+
+  &_grey{
+    .chartType(gray, 'images/little_girl_grey.png');
+  }
+
+  &_orange{
+    .chartType(orange, 'images/little_girl_orange.png');
+  }
+
+  &_purple{
+    .chartType(purple, 'images/little_girl_purple.png');
+  }
+
+  &_white{
+    .chartType(#ececec, 'images/little_girl_white.png');
+  }
+
+  &_yellow{
+    .chartType(yellow, 'images/little_girl_yellow.png');
+  }
 }
 
 .chart-row-label{
@@ -33,16 +67,5 @@ body{
   height: 52px;
   margin-top: 6px;
   float: left;
-}
-
-.chart-row-box_red{
-  background-color : Red;
-}
-
-.chart-row-box_green{
-  background-color : green;
-}
-
-.chart-row-box_pink{
-  background-color : pink;
+  background-size: contain;
 }
