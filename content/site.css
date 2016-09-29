@@ -9,62 +9,92 @@ body {
 .chart-row_red {
   border-color: red;
 }
-.chart-row_red-box {
-  background-image: url('images/little_girl_red.png');
+.chart-row_red-box_normal {
+  background-image: url("images/little_girl_red.png");
+}
+.chart-row_red-box_alter {
+  background-image: url("images/little_boy_red.png");
 }
 .chart-row_green {
   border-color: green;
 }
-.chart-row_green-box {
-  background-image: url('images/little_girl_green.png');
+.chart-row_green-box_normal {
+  background-image: url("images/little_girl_green.png");
+}
+.chart-row_green-box_alter {
+  background-image: url("images/little_boy_green.png");
 }
 .chart-row_pink {
   border-color: pink;
 }
-.chart-row_pink-box {
-  background-image: url('images/little_girl_pink.png');
+.chart-row_pink-box_normal {
+  background-image: url("images/little_girl_pink.png");
+}
+.chart-row_pink-box_alter {
+  background-image: url("images/little_boy_pink.png");
 }
 .chart-row_black {
   border-color: black;
 }
-.chart-row_black-box {
-  background-image: url('images/little_girl_black.png');
+.chart-row_black-box_normal {
+  background-image: url("images/little_girl_black.png");
+}
+.chart-row_black-box_alter {
+  background-image: url("images/little_boy_black.png");
 }
 .chart-row_blue {
   border-color: blue;
 }
-.chart-row_blue-box {
-  background-image: url('images/little_girl_blue.png');
+.chart-row_blue-box_normal {
+  background-image: url("images/little_girl_blue.png");
+}
+.chart-row_blue-box_alter {
+  background-image: url("images/little_boy_blue.png");
 }
 .chart-row_grey {
   border-color: gray;
 }
-.chart-row_grey-box {
-  background-image: url('images/little_girl_grey.png');
+.chart-row_grey-box_normal {
+  background-image: url("images/little_girl_grey.png");
+}
+.chart-row_grey-box_alter {
+  background-image: url("images/little_boy_grey.png");
 }
 .chart-row_orange {
   border-color: orange;
 }
-.chart-row_orange-box {
-  background-image: url('images/little_girl_orange.png');
+.chart-row_orange-box_normal {
+  background-image: url("images/little_girl_orange.png");
+}
+.chart-row_orange-box_alter {
+  background-image: url("images/little_boy_orange.png");
 }
 .chart-row_purple {
   border-color: purple;
 }
-.chart-row_purple-box {
-  background-image: url('images/little_girl_purple.png');
+.chart-row_purple-box_normal {
+  background-image: url("images/little_girl_purple.png");
+}
+.chart-row_purple-box_alter {
+  background-image: url("images/little_boy_purple.png");
 }
 .chart-row_white {
   border-color: #ececec;
 }
-.chart-row_white-box {
-  background-image: url('images/little_girl_white.png');
+.chart-row_white-box_normal {
+  background-image: url("images/little_girl_white.png");
+}
+.chart-row_white-box_alter {
+  background-image: url("images/little_boy_white.png");
 }
 .chart-row_yellow {
   border-color: yellow;
 }
-.chart-row_yellow-box {
-  background-image: url('images/little_girl_yellow.png');
+.chart-row_yellow-box_normal {
+  background-image: url("images/little_girl_yellow.png");
+}
+.chart-row_yellow-box_alter {
+  background-image: url("images/little_boy_yellow.png");
 }
 .chart-row-label {
   line-height: 64px;

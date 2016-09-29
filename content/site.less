@@ -8,7 +8,13 @@ body{
   }
 
   &-box{
-    background-image : url(@image);
+    &_normal {
+      background-image : url("images/little_girl_@{image}.png");
+    }
+
+    &_alter {
+      background-image : url("images/little_boy_@{image}.png");
+    }
   }
 }
 
@@ -17,43 +23,43 @@ body{
   width: 100%;
   border-bottom: 1px solid Transparent;
   &_red{
-    .chartType(red, 'images/little_girl_red.png');
+    .chartType(red, 'red');
   }
 
   &_green{
-    .chartType(green, 'images/little_girl_green.png');
+    .chartType(green, 'green');
   }
 
   &_pink{
-    .chartType(pink, 'images/little_girl_pink.png');
+    .chartType(pink, 'pink');
   }
 
   &_black{
-    .chartType(black, 'images/little_girl_black.png');
+    .chartType(black, 'black');
   }
 
   &_blue{
-    .chartType(blue, 'images/little_girl_blue.png');
+    .chartType(blue, 'blue');
   }
 
   &_grey{
-    .chartType(gray, 'images/little_girl_grey.png');
+    .chartType(gray, 'grey');
   }
 
   &_orange{
-    .chartType(orange, 'images/little_girl_orange.png');
+    .chartType(orange, 'orange');
   }
 
   &_purple{
-    .chartType(purple, 'images/little_girl_purple.png');
+    .chartType(purple, 'purple');
   }
 
   &_white{
-    .chartType(#ececec, 'images/little_girl_white.png');
+    .chartType(#ececec, 'white');
   }
 
   &_yellow{
-    .chartType(yellow, 'images/little_girl_yellow.png');
+    .chartType(yellow, 'yellow');
   }
 }
 
