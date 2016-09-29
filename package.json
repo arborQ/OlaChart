@@ -1,0 +1,22 @@
+{
+  "name": "olachart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arborQ/OlaChart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arborQ/OlaChart/issues"
+  },
+  "homepage": "https://github.com/arborQ/OlaChart#readme",
+  "dependencies": {
+    "gulp-less": "^3.1.0"
+  }
+}

@@ -1,0 +1,8 @@
+<div class="pull-left" style="width: 100%;">
+    <div ng-repeat="r in $ctrl.rows | orderBy:'value':'desc'" class="pull-left chart-row chart-row_{{r.type}}">
+        <div class="pull-left chart-row-label">{{r.name}}</div>
+        <div class="pull-right">
+            <div class="chart-row-box chart-row-box_{{r.type}}" ng-repeat="box in r.value | times"></div>
+        </div>
+    </div>
+</div>

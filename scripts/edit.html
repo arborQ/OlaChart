@@ -1,0 +1,23 @@
+<div class="pull-left">
+  <button class="btn btn-primary pull-right" ng-click="$ctrl.add()">Dodaj</button>
+  <div class="pull-left" style="width : 100%;">
+    <div ng-repeat="r in $ctrl.rows" class="row">
+      <div class="form-group col col-sm-4">
+        <label for="text">Tekst</label>
+        <input type="text" class="form-control" id="text" placeholder="Nazwa" ng-value="r.name" ng-model="r.name">
+      </div>
+      <div class="form-group col col-sm-4">
+        <label for="value">Wartość</label>
+        <input type="number" class="form-control" id="value" placeholder="Wartość" ng-value="r.value" ng-model="r.value">
+      </div>
+      <div class="form-group col col-sm-4">
+        <label for="type">Typ</label>
+        <select class="form-control" id="type" ng-model="r.type">
+          <option value="red">Czerwone</option>
+          <option value="green">Zielone</option>
+          <option value="pink">Różowe</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
